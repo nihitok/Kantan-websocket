@@ -16,7 +16,7 @@ $(function(){
         if(e.keyCode ==13){
             var val = $("#input").val()
             ws.send(val)
-            $("input").val("")
+            $("#input").val("")
         }
     });
 });
